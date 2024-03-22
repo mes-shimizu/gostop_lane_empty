@@ -27,7 +27,7 @@
 	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
 		window.addEventListener("orientationchange", function() {
 		if (window.orientation === 90 || window.orientation === -90) {
-			alert("【注】このアプリケーションはタブレットで見る場合は縦/横どちら向きでも大丈夫ですが、スマートフォンで見る場合は必ず「縦向き」にしてください");
+			alert("【注】このアプリケーションは、スマートフォンで見る場合は必ず「縦向き」にしてください");
 			}
 		});
 	}
@@ -48,8 +48,8 @@
 			<div class="update">
 				<button class="white">
 					<img src="img/common/obj_update.svg" alt="更新ボタン">
-					<span class="update_message tab">更新が必要です</span>
-					<span class="update_message sp">更新</span>
+<!-- 					<span class="update_message tab">更新が必要です</span>
+					<span class="update_message sp">更新</span> -->
 				</button>
 			</div>
 			<div class="volume">
@@ -86,7 +86,7 @@
 		</div><!--head_data-->
 		<div class="signal">
 			<img src="img/mark/obj_ok_circle.svg" alt="○マーク">
-			<img class="flicker" src="img/mark/obj_ok_circle_hover.svg" alt="○マーク"><!--フリック時の○マーク-->
+<!-- 			<img class="flicker" src="img/mark/obj_ok_circle_hover.svg" alt="○マーク"><!--フリック時の○マーク-->
 			<p class="ok_lane green bold">袖師 空バンレーンです</p>
 			<p class="attention">交通整理員がいる場合は指示に従ってください</p>
 		</div><!--signal-->
@@ -96,8 +96,8 @@
 		<div class="job">
 			<h2>レーンジョブ</h2>
 			<div>
-				<h3>レーン&emsp;<span>2E</span></h3>
-				<p>本船：33台／横持：11台／ゲート：88台</p>
+				<h3>レーン&emsp;<span>SX</span></h3>
+				<p>本船：0台／横持：0台／ゲート：8台</p>
 			</div>
 		</div><!--job-->
 		
@@ -134,7 +134,7 @@
 						<img src="img/truck/truck_navy_pre.svg" alt="トラック">
 						<p class="number navy">4468</p>
 					</div>
-					<p class="bay_number">05/06</p>
+					<p class="bay_number">05</p>
 				</li>
 				<li>
 					<h3>HE301</h3>
@@ -158,27 +158,11 @@
 						<img src="img/truck/truck_navy_pre.svg" alt="トラック">
 						<p class="number navy">4687</p>
 					</div>
-					<p class="bay_number">05/06</p>
-				</li>
-				<li>
-					<h3>BG845</h3>
-					<div class="truck pre">
-						<img src="img/truck/truck_navy_pre.svg" alt="トラック">
-						<p class="number navy">5875</p>
-					</div>
-					<p class="bay_number">19/20</p>
-				</li>
-				<li>
-					<h3>RE137</h3>
-					<div class="truck">
-						<img src="img/truck/truck_navy.svg" alt="トラック">
-						<p class="number white">3402</p>
-					</div>
-					<p class="bay_number">11/12</p>
+					<p class="bay_number">05</p>
 				</li>
 				<li class="current">
 					<h3>AR123</h3>
-					<div class="truck">
+					<div class="truck pre">
 						<img src="img/truck/truck_navy.svg" alt="トラック">
 						<p class="number white">3824</p>
 					</div>
